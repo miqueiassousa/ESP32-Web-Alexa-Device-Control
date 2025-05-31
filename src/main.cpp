@@ -2,10 +2,12 @@
 #include <WebServer.h>
 #include "SPIFFS.h"
 #include <fauxmoESP.h>
+#include "config.h"
+
 
 // Credenciais WiFi
-const char *ssid = "Brad";
-const char *password = "catingueiro";
+// const char *ssid = "";
+// const char *password = "";
 
 WebServer server(8080);
 fauxmoESP fauxmo;
